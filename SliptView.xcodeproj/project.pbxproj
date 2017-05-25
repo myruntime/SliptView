@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2DFCCD11ED6C88E007F511C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DFCCD01ED6C88E007F511C /* main.m */; };
+		B2DFCCD41ED6C88E007F511C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DFCCD31ED6C88E007F511C /* AppDelegate.m */; };
+		B2DFCCD71ED6C88E007F511C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DFCCD61ED6C88E007F511C /* ViewController.m */; };
+		B2DFCCDA1ED6C88E007F511C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2DFCCD81ED6C88E007F511C /* Main.storyboard */; };
+		B2DFCCDC1ED6C88E007F511C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2DFCCDB1ED6C88E007F511C /* Assets.xcassets */; };
+		B2DFCCDF1ED6C88E007F511C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2DFCCDD1ED6C88E007F511C /* LaunchScreen.storyboard */; };
+		B2DFCCEA1ED6C88E007F511C /* SliptViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DFCCE91ED6C88E007F511C /* SliptViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2DFCCE61ED6C88E007F511C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2DFCCC41ED6C88E007F511C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2DFCCCB1ED6C88E007F511C;
+			remoteInfo = SliptView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2DFCCCC1ED6C88E007F511C /* SliptView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliptView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2DFCCD01ED6C88E007F511C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2DFCCD21ED6C88E007F511C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2DFCCD31ED6C88E007F511C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2DFCCD51ED6C88E007F511C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B2DFCCD61ED6C88E007F511C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B2DFCCD91ED6C88E007F511C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2DFCCDB1ED6C88E007F511C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2DFCCDE1ED6C88E007F511C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2DFCCE01ED6C88E007F511C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2DFCCE51ED6C88E007F511C /* SliptViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SliptViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2DFCCE91ED6C88E007F511C /* SliptViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliptViewTests.m; sourceTree = "<group>"; };
+		B2DFCCEB1ED6C88E007F511C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2DFCCC91ED6C88E007F511C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2DFCCE21ED6C88E007F511C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2DFCCC31ED6C88E007F511C = {
+			isa = PBXGroup;
+			children = (
+				B2DFCCCE1ED6C88E007F511C /* SliptView */,
+				B2DFCCE81ED6C88E007F511C /* SliptViewTests */,
+				B2DFCCCD1ED6C88E007F511C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2DFCCCD1ED6C88E007F511C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2DFCCCC1ED6C88E007F511C /* SliptView.app */,
+				B2DFCCE51ED6C88E007F511C /* SliptViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2DFCCCE1ED6C88E007F511C /* SliptView */ = {
+			isa = PBXGroup;
+			children = (
+				B2DFCCD21ED6C88E007F511C /* AppDelegate.h */,
+				B2DFCCD31ED6C88E007F511C /* AppDelegate.m */,
+				B2DFCCD51ED6C88E007F511C /* ViewController.h */,
+				B2DFCCD61ED6C88E007F511C /* ViewController.m */,
+				B2DFCCD81ED6C88E007F511C /* Main.storyboard */,
+				B2DFCCDB1ED6C88E007F511C /* Assets.xcassets */,
+				B2DFCCDD1ED6C88E007F511C /* LaunchScreen.storyboard */,
+				B2DFCCE01ED6C88E007F511C /* Info.plist */,
+				B2DFCCCF1ED6C88E007F511C /* Supporting Files */,
+			);
+			path = SliptView;
+			sourceTree = "<group>";
+		};
+		B2DFCCCF1ED6C88E007F511C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2DFCCD01ED6C88E007F511C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2DFCCE81ED6C88E007F511C /* SliptViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2DFCCE91ED6C88E007F511C /* SliptViewTests.m */,
+				B2DFCCEB1ED6C88E007F511C /* Info.plist */,
+			);
+			path = SliptViewTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2DFCCCB1ED6C88E007F511C /* SliptView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2DFCCEE1ED6C88E007F511C /* Build configuration list for PBXNativeTarget "SliptView" */;
+			buildPhases = (
+				B2DFCCC81ED6C88E007F511C /* Sources */,
+				B2DFCCC91ED6C88E007F511C /* Frameworks */,
+				B2DFCCCA1ED6C88E007F511C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SliptView;
+			productName = SliptView;
+			productReference = B2DFCCCC1ED6C88E007F511C /* SliptView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2DFCCE41ED6C88E007F511C /* SliptViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2DFCCF11ED6C88E007F511C /* Build configuration list for PBXNativeTarget "SliptViewTests" */;
+			buildPhases = (
+				B2DFCCE11ED6C88E007F511C /* Sources */,
+				B2DFCCE21ED6C88E007F511C /* Frameworks */,
+				B2DFCCE31ED6C88E007F511C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2DFCCE71ED6C88E007F511C /* PBXTargetDependency */,
+			);
+			name = SliptViewTests;
+			productName = SliptViewTests;
+			productReference = B2DFCCE51ED6C88E007F511C /* SliptViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2DFCCC41ED6C88E007F511C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SAIC;
+				TargetAttributes = {
+					B2DFCCCB1ED6C88E007F511C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					B2DFCCE41ED6C88E007F511C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B2DFCCCB1ED6C88E007F511C;
+					};
+				};
+			};
+			buildConfigurationList = B2DFCCC71ED6C88E007F511C /* Build configuration list for PBXProject "SliptView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2DFCCC31ED6C88E007F511C;
+			productRefGroup = B2DFCCCD1ED6C88E007F511C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2DFCCCB1ED6C88E007F511C /* SliptView */,
+				B2DFCCE41ED6C88E007F511C /* SliptViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2DFCCCA1ED6C88E007F511C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2DFCCDF1ED6C88E007F511C /* LaunchScreen.storyboard in Resources */,
+				B2DFCCDC1ED6C88E007F511C /* Assets.xcassets in Resources */,
+				B2DFCCDA1ED6C88E007F511C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2DFCCE31ED6C88E007F511C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2DFCCC81ED6C88E007F511C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2DFCCD71ED6C88E007F511C /* ViewController.m in Sources */,
+				B2DFCCD41ED6C88E007F511C /* AppDelegate.m in Sources */,
+				B2DFCCD11ED6C88E007F511C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2DFCCE11ED6C88E007F511C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2DFCCEA1ED6C88E007F511C /* SliptViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2DFCCE71ED6C88E007F511C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2DFCCCB1ED6C88E007F511C /* SliptView */;
+			targetProxy = B2DFCCE61ED6C88E007F511C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2DFCCD81ED6C88E007F511C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2DFCCD91ED6C88E007F511C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2DFCCDD1ED6C88E007F511C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2DFCCDE1ED6C88E007F511C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2DFCCEC1ED6C88E007F511C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B2DFCCED1ED6C88E007F511C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2DFCCEF1ED6C88E007F511C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SliptView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sqzz.SliptView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B2DFCCF01ED6C88E007F511C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SliptView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sqzz.SliptView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B2DFCCF21ED6C88E007F511C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SliptViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sqzz.SliptViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SliptView.app/SliptView";
+			};
+			name = Debug;
+		};
+		B2DFCCF31ED6C88E007F511C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SliptViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sqzz.SliptViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SliptView.app/SliptView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2DFCCC71ED6C88E007F511C /* Build configuration list for PBXProject "SliptView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2DFCCEC1ED6C88E007F511C /* Debug */,
+				B2DFCCED1ED6C88E007F511C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2DFCCEE1ED6C88E007F511C /* Build configuration list for PBXNativeTarget "SliptView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2DFCCEF1ED6C88E007F511C /* Debug */,
+				B2DFCCF01ED6C88E007F511C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2DFCCF11ED6C88E007F511C /* Build configuration list for PBXNativeTarget "SliptViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2DFCCF21ED6C88E007F511C /* Debug */,
+				B2DFCCF31ED6C88E007F511C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2DFCCC41ED6C88E007F511C /* Project object */;
+}
