@@ -14,6 +14,8 @@
 		B2DFCCDC1ED6C88E007F511C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2DFCCDB1ED6C88E007F511C /* Assets.xcassets */; };
 		B2DFCCDF1ED6C88E007F511C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2DFCCDD1ED6C88E007F511C /* LaunchScreen.storyboard */; };
 		B2DFCCEA1ED6C88E007F511C /* SliptViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DFCCE91ED6C88E007F511C /* SliptViewTests.m */; };
+		B2DFCD031ED6CB87007F511C /* LTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DFCD021ED6CB87007F511C /* LTableViewController.m */; };
+		B2DFCD061ED6CBB0007F511C /* RViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DFCD051ED6CBB0007F511C /* RViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		B2DFCCE51ED6C88E007F511C /* SliptViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SliptViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2DFCCE91ED6C88E007F511C /* SliptViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliptViewTests.m; sourceTree = "<group>"; };
 		B2DFCCEB1ED6C88E007F511C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2DFCD011ED6CB87007F511C /* LTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTableViewController.h; sourceTree = "<group>"; };
+		B2DFCD021ED6CB87007F511C /* LTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTableViewController.m; sourceTree = "<group>"; };
+		B2DFCD041ED6CBB0007F511C /* RViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RViewController.h; sourceTree = "<group>"; };
+		B2DFCD051ED6CBB0007F511C /* RViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				B2DFCCD31ED6C88E007F511C /* AppDelegate.m */,
 				B2DFCCD51ED6C88E007F511C /* ViewController.h */,
 				B2DFCCD61ED6C88E007F511C /* ViewController.m */,
+				B2DFCD041ED6CBB0007F511C /* RViewController.h */,
+				B2DFCD051ED6CBB0007F511C /* RViewController.m */,
+				B2DFCD011ED6CB87007F511C /* LTableViewController.h */,
+				B2DFCD021ED6CB87007F511C /* LTableViewController.m */,
 				B2DFCCD81ED6C88E007F511C /* Main.storyboard */,
 				B2DFCCDB1ED6C88E007F511C /* Assets.xcassets */,
 				B2DFCCDD1ED6C88E007F511C /* LaunchScreen.storyboard */,
@@ -215,6 +225,8 @@
 			files = (
 				B2DFCCD71ED6C88E007F511C /* ViewController.m in Sources */,
 				B2DFCCD41ED6C88E007F511C /* AppDelegate.m in Sources */,
+				B2DFCD031ED6CB87007F511C /* LTableViewController.m in Sources */,
+				B2DFCD061ED6CBB0007F511C /* RViewController.m in Sources */,
 				B2DFCCD11ED6C88E007F511C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,6 +367,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sqzz.SliptView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -366,6 +379,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sqzz.SliptView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
